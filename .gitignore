@@ -1,0 +1,77 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+ENV/
+env/
+
+# ---- 环境变量与密钥（最重要，永远不要提交）----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.yaml
+secrets.json
+
+# ---- 数据与模型（大文件不进 git）----
+data/raw/
+data/processed/
+datasets/
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+
+# ---- 输出与日志 ----
+outputs/
+logs/
+*.log
+runs/
+wandb/
+mlruns/
+
+# ---- Notebook ----
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ---- 测试与缓存 ----
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 临时文件 ----
+*.tmp
+*.bak
+~$*
+# ---- 本项目的本地数据（不上传）----
+data/
+out/
+*.db
+
+# ---- 本项目 ----
+data/jobs.db
+outputs/

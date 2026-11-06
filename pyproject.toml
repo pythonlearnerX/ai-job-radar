@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-job-radar"
+version = "0.1.0"
+description = "抓岗位 JD，看清市场到底要什么：采集 → 解析 → 清洗 → 分析 → 报告"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "pythonlearnerX" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+jobradar = "job_radar.cli:main"
+
+[tool.setuptools]
+packages = ["job_radar"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
