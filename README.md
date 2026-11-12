@@ -57,6 +57,8 @@ python -m job_radar report       # 生成 outputs/report.md
 
 完整报告长这样：[docs/example-report.md](docs/example-report.md)
 
+采集层的重试/限速/续跑是怎么设计的：[docs/retro-fetch-url.md](docs/retro-fetch-url.md)
+
 ## 命令
 
 | 命令 | 作用 |
