@@ -68,7 +68,8 @@ desktop.ini
 *.bak
 ~$*
 # ---- 本项目的本地数据（不上传）----
-data/
+data/*.db
+data/seen.txt
 out/
 *.db
 

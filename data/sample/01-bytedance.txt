@@ -1,0 +1,9 @@
+公司：字节跳动
+职位：大模型应用开发工程师
+城市：北京市
+薪资：30-60K·15薪
+学历：本科
+经验：3-5年
+描述：负责 RAG 知识库与 Agent 平台建设，熟悉 LangChain、向量数据库（Milvus/FAISS）、Prompt 工程；
+有 vLLM 部署与 LoRA 微调经验优先；熟悉 Python、FastAPI、Docker 与 Linux 环境。
+加分项：有高并发服务开发经验，理解 Transformer 结构与注意力机制。
